@@ -24,16 +24,16 @@ REACTIONS = [
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6045160821').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/Royal_X_RoxStar")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002173261989'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/PopCorn_Movie_Group')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002428846713'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/New_Movies_Bots')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002228576325 -1001934525883 -1002233647976 -1002152906241 -1002152906241 -1002181251938 -1002248009127').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ROXSTAR:ROXSTAR@cluster0.xuroabv.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://MOTI:MOTI@cluster0.ropap.mongodb.net/?retryWrites=true&w=majority")
 
-DATABASE_NAME = environ.get('DATABASE_NAME', "papcorn")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'ipapcorn')
+DATABASE_NAME = environ.get('DATABASE_NAME', "motki")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'moti')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/nJp.jpg')
-START_IMG = environ.get('START_IMG', 'https://envs.sh/nJn.jpg')
+START_IMG = environ.get('START_IMG', 'https://iili.io/dZtVeNp.md.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
